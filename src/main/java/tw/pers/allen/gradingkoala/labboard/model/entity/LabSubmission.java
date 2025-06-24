@@ -1,9 +1,6 @@
 package tw.pers.allen.gradingkoala.labboard.model.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -23,6 +20,8 @@ public class LabSubmission {
     private Integer labId;
     private Integer studentId;
     private LocalDate createdAt;
+
+    @Lob
     private byte[] screenshot;
 
     @ColumnDefault("false")
