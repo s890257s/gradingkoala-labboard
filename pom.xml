@@ -6,26 +6,23 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.5.3</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>tw.pers.allen</groupId>
     <artifactId>gradingkoala-labboard</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gradingkoala-labboard</name>
-    <description>gradingkoala-labboard</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
+    <name>Grading Koala Lab Board</name>
+    <description>提供學生上傳進度截圖</description>
+
     <developers>
-        <developer/>
+        <developer>
+            <name>Allen Hong</name>
+            <email>s890257s@yahoo.com.tw</email>
+            <organization>Personal</organization>
+            <organizationUrl>https://github.com/s890257s</organizationUrl>
+        </developer>
     </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+
     <properties>
         <java.version>17</java.version>
     </properties>

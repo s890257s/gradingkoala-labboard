@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GradingkoalaLabboardApplication {
+public class GradingKoalaLabBoardApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GradingkoalaLabboardApplication.class, args);
+        SpringApplication.run(GradingKoalaLabBoardApplication.class, args);
     }
 
 }
